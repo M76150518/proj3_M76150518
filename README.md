@@ -90,16 +90,21 @@ CmdVel assumes the robot executes commanded (v, ω) reasonably well and motion i
 cd ~/proj3_ws
 source install/setup.bash
 ros2 run dead_reckoning estimator --ros-args -p use_sim_time:=true
-
+```
+---
 
 ### Terminal 2 - play bag
 ```bash
 cd ~/proj3_ws
 ros2 bag play proj3 --clock
+```
+---
 
 ### Terminal 3 - Rviz
 ```bash
 rviz
+```
+---
 
 ### Verify bag contents
 cd ~/proj3_ws
