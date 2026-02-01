@@ -107,5 +107,7 @@ rviz
 ---
 
 ### Verify bag contents
+```bash
 cd ~/proj3_ws
 ros2 bag info proj3
+```
